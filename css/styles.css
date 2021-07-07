@@ -97,7 +97,7 @@ a {
 .image-list-item {
 }
 /*-----------TEAM-------------*/
-.team-ttitle {
+.team-title {
   font-weight: 600px;
   font-size: 36px;
   line-height: 1.16;
@@ -105,14 +105,14 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-list-title {
+.team-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.team-list-text {
+.team-item-text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
