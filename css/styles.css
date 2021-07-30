@@ -112,7 +112,9 @@ a {
 /*-----------ABOUT-------------*/
 
 /*-----------TEAM-------------*/
-
+.team {
+  background: #f5f4fa;
+}
 .team-item-title,
 .team-item-text {
   font-family: Roboto, sans-serif;
