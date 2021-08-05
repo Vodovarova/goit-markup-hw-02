@@ -10,8 +10,7 @@ a {
 }
 
 .title {
-  font-family: Roboto, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -25,6 +24,7 @@ a {
   background: #ffffff;
 }
 .logo {
+  font-family: Raleaway, Oleo-Script;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -35,19 +35,21 @@ a {
   color: black;
 }
 .link {
-  /* font-family: Roboto, sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link:hover {
+.link:hover,
+:focus {
   color: #2196f3;
 }
-.link:focus {
+.nav-list .nav-item.link.active {
+  position: relative;
   color: #2196f3;
 }
+
 .contacts-item {
   color: #757575;
 }
@@ -94,8 +96,7 @@ a {
   opacity: 0;
 }
 .advantages-item-title {
-  font-family: Roboto, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -117,17 +118,20 @@ a {
 }
 .team-item-title,
 .team-item-text {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+.team-item-title {
+  font-weight: 500;
   color: #212121;
 }
+
 .team-item-text {
-  font-weight: 400px;
+  font-weight: 400;
   color: #757575;
 }
+
 /* ------------FOOTER-------------*/
 .logo {
   margin-left: 40px;
@@ -144,7 +148,6 @@ a {
   color: #ffffff;
 }
 .footer-contacts {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -156,7 +159,6 @@ a {
   margin-bottom: 9px;
 }
 .adress {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
