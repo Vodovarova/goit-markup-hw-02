@@ -141,16 +141,15 @@ a {
   color: var(--secondary-text-color);
 }
 /*------------------------Portfolio---------------*/
-.filters {
+
+.filters-list {
+  display: flex;
   margin: 0 auto;
   margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.filters-list {
-  display: flex;
 }
 .filters-list :not(:last-child) {
   margin-right: 8px;
