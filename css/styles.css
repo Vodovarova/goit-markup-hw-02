@@ -200,21 +200,13 @@ a {
 }
 .projects-item-title {
   color: var(--primary-title-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  width: 322px;
-  height: 36px;
 }
 .projects-item-text {
   color: var(--secondary-text-color);
-  width: 322px;
-  height: 30px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
